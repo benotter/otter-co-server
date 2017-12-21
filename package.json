@@ -1,0 +1,30 @@
+{
+  "name": "otter-co-server",
+  "version": "1.0.0",
+  "description": "Otter-Co's Web Backend Server Software",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benotter/otter-co-server.git"
+  },
+  "author": "Ben Otter <benotter@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benotter/otter-co-server/issues"
+  },
+  "homepage": "https://github.com/benotter/otter-co-server#readme",
+  "devDependencies": {
+    "@types/node": "^8.5.1",
+    "@types/request": "^2.0.9",
+    "@types/request-promise-native": "^1.0.10",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
